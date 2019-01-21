@@ -6,7 +6,7 @@ To use this repository:
 
 1. Clone the repository
 2. Bundle install
-3. On terminal type "ruby test.rb" to run the signup script
+3. On terminal type "ruby test.rb" to run the scripts
 
 *Contributions*
 
