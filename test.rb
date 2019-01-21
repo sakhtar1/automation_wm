@@ -11,5 +11,5 @@ include PageObject::PageFactory
 
 #Execution of test
 visit(SignupPage)
-on(SignupPage).signup_method('sampfname', 'samplname','test@test.com', 'test1234')
+on(SignupPage).signup_method('sampfname', 'samplname','test@test.com', 'test12345')
 

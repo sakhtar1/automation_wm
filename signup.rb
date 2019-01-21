@@ -2,6 +2,7 @@
 require 'page-object'
 
 class SignupPage
+	
 	  include PageObject
 	  	button(:send, :css => 'span')
 	    text_field(:fname, :id => 'firstname')
@@ -23,6 +24,7 @@ class SignupPage
 	    send
 	    puts "Registration complete"
 	  end
+
 end
 
 	
