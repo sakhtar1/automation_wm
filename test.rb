@@ -6,7 +6,7 @@ require_relative 'signup.rb'
 include PageObject::PageFactory
 
 #Browser setup
-@browser = Selenium::WebDriver.for :safari
+@browser = Selenium::WebDriver.for :chrome
 #----------
 
 #Execution of test
