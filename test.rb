@@ -12,15 +12,19 @@ include PageObject::PageFactory
 #----------
 
 #Execution of test
-# visit(SignupPage)
-# on(SignupPage).signup_method('sampfname', 'samplname','test@test.com', 'test12345')
+#positive
+visit(SignupPage)
+on(SignupPage).signup_method('sampfname', 'samplname','test@test.com', 'test12345')
 
-# visit(SignupPage)
-# on(SignupPage).signup_method('sampfname', 'samplname','tes@test.com', 'f')
+#negative
+visit(SignupPage)
+on(SignupPage).signup_method('sampfname', 'samplname','tes@test.com', 'f')
 
+#login
 visit(LoginPage)
 on(LoginPage).login_method('qa+candidatetest@workmarket.com', 'candidate123')
 
+#find talent
 visit(FindTalent)
 on(FindTalent).test_method('test')
 
