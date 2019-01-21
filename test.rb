@@ -12,11 +12,11 @@ include PageObject::PageFactory
 #----------
 
 #Execution of test
-#positive
+#positive test
 visit(SignupPage)
 on(SignupPage).signup_method('sampfname', 'samplname','test@test.com', 'test12345')
 
-#negative
+#negative test for pd
 visit(SignupPage)
 on(SignupPage).signup_method('sampfname', 'samplname','tes@test.com', 'f')
 
