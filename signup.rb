@@ -19,11 +19,19 @@ class SignupPage
 	    self.fname = fname
 	    self.lname = lname
 	    self.email = email
-	    self.pd = pd
+	    if self.pd = pd
+	    	pd.length >= 8
+	    	 "Password complete"
+	    else
+	    	"password test failed"
+	    end
 	    send 
 	    send
 	    puts "Registration complete"
+	   
 	  end
+
+
 
 end
 
